@@ -1,7 +1,6 @@
 # Animacion---Graficaci-n
 Código en el cual se crea una imagen a partir de un numero hexadecimal, después de crearse este se mueve aleatoriamente por la ventana creada sin salirse de ella, la figura hace 10 choques y termina la ejecución del programa
 
-
 package Unidad1;
 
 import java.awt.BorderLayout;
@@ -20,20 +19,7 @@ public class Animacion extends JPanel {
     private int AnchoVentana = 800, AltoVentana = 600;
 
     //Hexadecimal de la figura
-    private final int[] FIGURA = {
-//        //ejemplo calamardo
-//                0x000ff800,
-//                0x00300600,
-//                0x00400100,
-//                0x00800080,
-//                0x00800080,
-//                0x01000040,
-//                0x01000040,
-//                0x01063040,
-//                0x01083040,
-//                0x01108440,
-//                0x0092a480        
-//       
+    private final int[] FIGURA = {       
         //ejemplo fantasma
         0x0007c000,
         0x00183000,
